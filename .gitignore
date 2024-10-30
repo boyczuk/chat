@@ -1,0 +1,18 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Ignore the SQLite database
+db.sqlite3
+
+# Ignore Django secret files
+.env
+
+# Ignore Node.js dependencies in the frontend folder
+frontend/node_modules/
+
+# Ignore OS-specific files
+.DS_Store
