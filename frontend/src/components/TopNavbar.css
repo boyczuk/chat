@@ -1,0 +1,25 @@
+.pages-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53,53,62);
+    align-items: center;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
