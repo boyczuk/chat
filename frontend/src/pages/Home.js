@@ -1,3 +1,5 @@
+import Register from '../components/Register';
+
 export default function Home() {
     return (
         <div className='Title'>
@@ -8,6 +10,7 @@ export default function Home() {
                 React/JavaScript for Frontend/Web dev, React native (most likely) for when its mobile, and Django for the backend. This will also allow me to get into a lot of other areas like containerization, devops, 
                 and more to make me a lot more well rounded of a developer.
             </p>
+            <Register />
         </div>
     )
 }
